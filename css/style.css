@@ -1,0 +1,61 @@
+
+#content
+{
+	width:100%;
+	background-color:white;
+}
+
+
+.chip {
+	display: inline-block;
+	padding: 0 25px;
+	height: 50px;
+	font-size: 16px;
+  }
+  
+  .chip img {
+	float: left;
+	margin: 0 10px 0 -25px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+  }
+.heading
+{
+	/* width:50%; */
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 10px;
+	float:left;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	
+  }
+
+  .row,
+.row > .column {
+  padding: 0px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.info {color: dodgerblue;}
+
+
